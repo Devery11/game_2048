@@ -6,7 +6,7 @@
  * Feel free to add more props and methods if needed.
  */
 
-class Game {
+export class Game {
   /** +
    *
    * Creates a new game instance.
@@ -191,5 +191,3 @@ class Game {
     this.status = 'lose';
   }
 }
-
-module.exports = Game;

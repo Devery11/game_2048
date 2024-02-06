@@ -1,6 +1,5 @@
-'use strict';
+import { Game } from '../modules/Game.class.js';
 
-const Game = require('../modules/Game.class');
 const game = new Game();
 
 const buttonStart = document.querySelector('.button');

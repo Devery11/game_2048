@@ -20,60 +20,61 @@ body {
   text-align: center;
   vertical-align: center;
   user-select: none;
+}
 
-  &--2 {
+.field-cell--2 {
     background: #eee4da;
-  }
+}
 
-  &--4 {
+.field-cell--4 {
     background: #ede0c8;
-  }
+}
 
-  &--8 {
+.field-cell--8 {
     background: #f2b179;
     color: #f9f6f2;
-  }
+}
 
-  &--16 {
+.field-cell--16 {
     background: #f59563;
     color: #f9f6f2;
-  }
+}
 
-  &--32 {
+.field-cell--32 {
     background: #f67c5f;
     color: #f9f6f2;
-  }
+}
 
-  &--64 {
+.field-cell--64 {
     background: #f65e3b;
     color: #f9f6f2;
-  }
+}
 
-  &--128 {
+.field-cell--128 {
     background: #edcf72;
     color: #f9f6f2;
-  }
+}
 
-  &--256 {
+.field-cell--256 {
     background: #edcc61;
     color: #f9f6f2;
-  }
+}
 
-  &--512 {
+.field-cell--512 {
     background: #edc850;
     color: #f9f6f2;
-  }
+}
 
-  &--1024 {
+.field-cell--1024 {
     background: #edc53f;
     color: #f9f6f2;
-  }
+}
 
-  &--2048 {
+.field-cell--2048 {
     background: #edc22e;
     color: #f9f6f2;
-  }
 }
+
 
 .game-field {
   background: #bbada0;
@@ -140,18 +141,19 @@ h1 {
 .start {
   background: #1dae28;
   font-size: 20px;
+}
 
-  &:hover {
-    background: #179921;
-  }
+.start:hover {
+  background: #179921;
 }
 
 .restart {
   background: #f1b2b2;
 
-  &:hover {
-    background: #f87474;
-  }
+}
+
+.restart:hover {
+  background: #f87474;
 }
 
 .message {
